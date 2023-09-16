@@ -1,0 +1,124 @@
+.contact-container {
+  background-image: url("./contact-img.png");
+  padding: 0 5%;
+}
+.news-mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0;
+  gap: 3rem;
+}
+.left-contact-container {
+  flex: 25%;
+}
+.news-letter {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Work Sans;
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem; /* 61.538% */
+  text-transform: uppercase;
+  width: 24.0625rem;
+  height: 3.25rem;
+  flex-shrink: 0;
+}
+.news-desc {
+  width: 21.0625rem;
+  height: 3.25rem;
+  flex-shrink: 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Work Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem; /* 88.889% */
+}
+
+.right-contact-container {
+  flex: 75%;
+}
+
+.input-box {
+  width: 34.875rem;
+  /* height: 0.0625rem; */
+  height: 1.875rem;
+  flex-shrink: 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Work Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem; /* 88.889% */
+  outline: none;
+  border: none;
+  padding: 2% 1%;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+}
+.get-in-touch-send {
+  /* width: 72.4375rem;
+  height: 14.75rem;
+  flex-shrink: 0; */
+  position: relative;
+}
+.get-in-touch {
+  color: #fff;
+  font-family: Syne;
+  font-size: 8.4375rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 5.70375rem;
+  /* 5.70375rem */
+  width: 72.4375rem;
+  height: 14.75rem;
+  flex-shrink: 0;
+}
+.send-button {
+  border-radius: 50%;
+  padding: 3rem;
+  border: 2px solid #f07e15;
+  background-color: transparent;
+  position: absolute;
+  top: 2rem;
+  right: 12rem;
+  color: #f07e15;
+  cursor: pointer;
+}
+.error-msg {
+  color: #f07e15;
+}
+
+@media screen and (max-width: 470px) {
+  .news-mail {
+    display: block;
+  }
+  .input-box {
+    width: 18.9375rem;
+    height: 1.875rem;
+    flex-shrink: 0;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .get-in-touch {
+    margin-top: 1rem;
+    width: 21.875rem;
+    height: 8.0625rem;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Syne;
+    font-size: 3.4375rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 67.6%; /* 2.32375rem */
+  }
+  .send-button {
+    padding: 1.5rem;
+    top: 0rem;
+    right: 0rem;
+  }
+}
