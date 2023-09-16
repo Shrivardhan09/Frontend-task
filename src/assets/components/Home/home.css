@@ -307,7 +307,7 @@
     width: 20.0625rem;
     height: 37.45594rem;
     flex-shrink: 0;
-    background-image: url("./banner-img.png");
+    background-image: url("../../../../public/banner-img.png");
   }
   .star-bottom-banner {
     display: none;
