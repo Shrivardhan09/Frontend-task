@@ -121,4 +121,7 @@
     top: 0rem;
     right: 0rem;
   }
+  .news-letter {
+    width: auto;
+  }
 }
