@@ -169,7 +169,7 @@
   width: 27rem;
   height: 40.93444rem;
   flex-shrink: 0;
-  background: url("./banner-img.png");
+  background: url("../../../../public/banner-img.png");
   /* lightgray 50% / cover no-repeat; */
 }
 
